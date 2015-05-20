@@ -1,0 +1,17 @@
+// use @include
+
+@mixin transform($deg) {
+  -webkit-transform: rotate($deg);
+     -moz-transform: rotate($deg);
+      -ms-transform: rotate($deg);
+          transform: rotate($deg);
+}
+
+@mixin borderLeftRight($borderWidth, $color: transparent) {
+  border-left: $borderWidth solid $color;
+  border-right: $borderWidth solid $color;
+}
+
+@mixin border($position, $pixel: 1px, $default-border-color:#000){
+	border-#{$position}: $pixel solid $default-border-color;
+}
