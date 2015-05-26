@@ -11,7 +11,7 @@
   margin: 30px auto 30px auto;
 }
 .head-lisa {
-	background: $background-lisa;
+	background: colors-simpsons(bg-lisa);
 	width: 126px;
 	height: 130px;
 	border-radius: 50%;
@@ -142,7 +142,7 @@
   height: 24px;
   border-bottom: 1px solid #110b00;
   border-radius: 100% 100% 0 0;
-  background: $background-bart;
+  background: colors-simpsons(bg-lisa);
 
   z-index: 4;
 
@@ -154,7 +154,7 @@
   height: 27px;
   border-top: 1px solid #110b00;
   border-radius: 0 0 100% 100%;
-  background: $background-bart;
+  background: colors-simpsons(bg-lisa);
 
   z-index: 4;
 
@@ -165,7 +165,7 @@
   height: 24px;
   border-bottom: 1px solid #110b00;
   border-radius: 100% 100% 0 0;
-  background: $background-bart;
+  background: colors-simpsons(bg-lisa);
 
   z-index: 4;
 
@@ -177,7 +177,7 @@
   height: 27px;
   border-top: 1px solid #110b00;
   border-radius: 0 0 100% 100%;
-  background: $background-bart;
+  background: colors-simpsons(bg-lisa);
 
   z-index: 4;
 
@@ -199,7 +199,7 @@
 // nose
 
 .nose-lisa {
-	background: $background-lisa;
+	background: colors-simpsons(bg-lisa);
 	border-radius: 50% 0 38% 50%;
 	border-left: 2px solid $default-border-color;
 	border-top: 2px solid $default-border-color;
@@ -219,7 +219,7 @@
 	z-index: 4;
 }
 .tip-lisa div:nth-child(1) {
-	border-bottom: 35px solid $background-lisa;
+	border-bottom: 35px solid colors-simpsons(bg-lisa);
 	top: 36px;
 	left: -36px;
 
@@ -227,7 +227,7 @@
 	@include transform(-76deg);
 }
 .tip-lisa div:nth-child(2) {
-	border-bottom: 36px solid $background-lisa;
+	border-bottom: 36px solid colors-simpsons(bg-lisa);
 	top: 2px;
 	left: -21px;
 
@@ -235,7 +235,7 @@
 	@include transform(-57deg);
 }
 .tip-lisa div:nth-child(3) {
-	border-bottom: 35px solid $background-lisa;
+	border-bottom: 35px solid colors-simpsons(bg-lisa);
 	top: -27px;
 	left: 17px;
 
@@ -243,7 +243,7 @@
 	@include transform(-30deg);
 }
 .tip-lisa div:nth-child(4) {
-	border-bottom: 39px solid $background-lisa;
+	border-bottom: 39px solid colors-simpsons(bg-lisa);
 	top: -33px;
 	left: 59px;
 
@@ -251,7 +251,7 @@
 	@include transform(20deg);
 }
 .tip-lisa div:nth-child(5) {
-	border-bottom: 31px solid $background-lisa;
+	border-bottom: 31px solid colors-simpsons(bg-lisa);
 	top: -7px;
 	left: 95px;
 
@@ -259,7 +259,7 @@
 	@include transform(43deg);
 }
 .tip-lisa div:nth-child(6) {
-	border-bottom: 31px solid $background-lisa;
+	border-bottom: 31px solid colors-simpsons(bg-lisa);
 	top: 35px;
 	left: 115px;
 
@@ -267,7 +267,7 @@
 	@include transform(85deg);
 }
 .tip-lisa div:nth-child(7) {
-	border-bottom: 27px solid $background-lisa;
+	border-bottom: 27px solid colors-simpsons(bg-lisa);
 	top: 74px;
 	left: 109px;
 
@@ -283,7 +283,7 @@
 	z-index: 3;
 }
 .tip-bright-lisa div:nth-child(1) {
-	border-bottom: 35px solid $background-tip-bright;
+	border-bottom: 35px solid colors-simpsons(bg-tip-bright);
 	top: 30px;
 	left: -42px;
 
@@ -291,7 +291,7 @@
 	@include transform(283deg);
 }
 .tip-bright-lisa div:nth-child(2) {
-	border-bottom: 40px solid $background-tip-bright;
+	border-bottom: 40px solid colors-simpsons(bg-tip-bright);
 	top: -3px;
 	left: -34px;
 
@@ -301,7 +301,7 @@
 .tip-bright-lisa div:nth-child(3) {
 	border-left: 27px solid transparent;
 	border-right: 12px solid transparent;
-	border-bottom: 33px solid $background-tip-bright;
+	border-bottom: 33px solid colors-simpsons(bg-tip-bright);
 	top: -26px;
 	left: 8px;
 
@@ -316,7 +316,7 @@
 	z-index: 3;
 }
 .tip-dark-lisa div:nth-child(1) {
-	border-bottom: 30px solid $background-tip-dark;
+	border-bottom: 30px solid colors-simpsons(bg-tip-dark);
 	border-right: 14px solid transparent;
 	border-left: 12px solid transparent;
 	top: -31px;
@@ -325,7 +325,7 @@
 	@include transform(359deg);
 }
 .tip-dark-lisa div:nth-child(2) {
-	border-bottom: 47px solid $background-tip-dark;
+	border-bottom: 47px solid colors-simpsons(bg-tip-dark);
 	border-right: 42px solid transparent;
 	border-left: 29px solid transparent;
 	top: -17px;
@@ -334,7 +334,7 @@
 	@include transform(402deg);
 }
 .tip-dark-lisa div:nth-child(3) {
-	border-bottom: 49px solid $background-tip-dark;
+	border-bottom: 49px solid colors-simpsons(bg-tip-dark);
 	top: 26px;
 	left: 115px;
 
@@ -342,7 +342,7 @@
 	@include transform(444deg);
 }
 .tip-dark-lisa div:nth-child(4) {
-	border-bottom: 49px solid $background-tip-dark;
+	border-bottom: 49px solid colors-simpsons(bg-tip-dark);
 	top: 67px;
 	left: 108px;
 
@@ -350,7 +350,7 @@
 	@include transform(476deg);
 }
 .tip-dark-lisa div:nth-child(5) {
-	border-bottom: 31px solid $background-tip-dark;
+	border-bottom: 31px solid colors-simpsons(bg-tip-dark);
 	top: 106px;
 	left: 108px;
 
@@ -451,7 +451,7 @@
 // ears
 
 .ear-lisa {
-	background: $background-lisa;
+	background: colors-simpsons(bg-lisa);
 	border-bottom: 2px solid $default-border-color;
 	border-top: 2px solid $default-border-color;
 	border-right: 2px solid $default-border-color;
@@ -463,7 +463,7 @@
 	z-index: 5;
 }
 .inear-lisa {
-	background: $background-lisa;
+	background: colors-simpsons(bg-lisa);
 	width: 10px;
 	height: 16px;
 	top: 5px;
@@ -500,7 +500,7 @@
 // mouth
 
 .mouth-lisa {
-	background: $background-lisa;
+	background: colors-simpsons(bg-lisa);
 	width: 99px;
 	height: 52px;
 	border-bottom: 2px solid $default-border-color;
@@ -529,7 +529,7 @@
 }
 
 .upper-lip-lisa-front {
-	background: $background-lisa;
+	background: colors-simpsons(bg-lisa);
 	width: 20px;
 	height: 17px;
 	border-left: 2px solid $default-border-color;
@@ -544,7 +544,7 @@
 }
 
 .bottom-lip-lisa {
-	background: $background-lisa;
+	background: colors-simpsons(bg-lisa);
 	width: 10px;
 	height: 13px;
 	border-left: 2px solid $default-border-color;
@@ -559,7 +559,7 @@
 }
 
 .neck-lisa {
-	background: $background-lisa;
+	background: colors-simpsons(bg-lisa);
 	width: 55px;
 	height: 45px;
 	border-left: 2px solid $default-border-color;
@@ -583,7 +583,7 @@
 }
 
 .cheek-right-lisa {
-	background: $background-lisa;
+	background: colors-simpsons(bg-lisa);
 	width: 19px;
 	height: 10px;
 	top: 109px;

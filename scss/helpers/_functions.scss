@@ -1,0 +1,7 @@
+@function colors-simpsons($key) {
+	@if map-has-key($colors-simpsons, $key) {
+		@return map-get($colors-simpsons, $key);
+	}
+	@warn "Unknown '#{$key}'in $colors.";
+	@return null;
+}

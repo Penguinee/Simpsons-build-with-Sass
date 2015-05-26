@@ -20,7 +20,7 @@
   width:0px;
   height:0px;
 
-  border-bottom:18px solid $background-bart;
+  border-bottom:18px solid colors-simpsons(bg-bart);
 }
 .tip-left {
   @include transform(-5deg);
@@ -223,7 +223,7 @@
 // forehead
 
 .forehead {
-  background: $background-bart;
+  background: colors-simpsons(bg-bart);
   height: 18px;
 }
 .forehead-l {
@@ -248,7 +248,7 @@
 // eye-brow
 
 .brow {
-  background: $background-bart;
+  background: colors-simpsons(bg-bart);
   width: 71px;
   height: 15px;
   top: 36px;
@@ -258,7 +258,7 @@
   @include border(right);
 }
 .brow-before {
-  background: $background-bart;
+  background: colors-simpsons(bg-bart);
   width: 73px;
   height: 15px;
   top: 13px;
@@ -268,7 +268,7 @@
 // eyes
 
 .eyebrow {
-  background: $background-bart;
+  background: colors-simpsons(bg-bart);
   width: 15px;
   height: 15px;
   border: 1px solid $default-border-color;
@@ -313,7 +313,7 @@
   left: 10px
 }
 .eye-behind {
-  background: $background-bart;
+  background: colors-simpsons(bg-bart);
   width: 70px;
   height: 43px;
   top: 45px;
@@ -331,7 +331,7 @@
   height: 17px;
   border-bottom: 1px solid #110b00;
   border-radius: 100% 100% 0 0;
-  background: $background-bart;
+  background: colors-simpsons(bg-bart);
 
   z-index: 11;
 
@@ -343,7 +343,7 @@
   height: 12px;
   border-top: 1px solid #110b00;
   border-radius: 0 0 100% 100%;
-  background: $background-bart;
+  background: colors-simpsons(bg-bart);
 
   @include animation(eyelid-bottom 10s linear 0s infinite);
 }
@@ -352,7 +352,7 @@
   height: 17px;
   border-bottom: 1px solid #110b00;
   border-radius: 100% 100% 0 0;
-  background: $background-bart;
+  background: colors-simpsons(bg-bart);
 
   z-index: 11;
 
@@ -364,7 +364,7 @@
   height: 12px;
   border-top: 1px solid #110b00;
   border-radius: 0 0 100% 100%;
-  background: $background-bart;
+  background: colors-simpsons(bg-bart);
 
   @include animation(eyelid-bottom 10s linear 0s infinite);
 }
@@ -385,7 +385,7 @@
 // nose
 
 .nose {
-  background: $background-bart;
+  background: colors-simpsons(bg-bart);
   width: 20px;
   height: 12px;
   border-radius: 0 10px  10px 0;
@@ -398,7 +398,7 @@
   z-index:10;
 }
 .nose-hole {
-  background: $background-bart;
+  background: colors-simpsons(bg-bart);
   width: 10px;
   height: 10px;
   top: 83px;
@@ -410,7 +410,7 @@
 // ear
 
 .ear{
-  background: $background-bart;
+  background: colors-simpsons(bg-bart);
 }
 .ear-outside {
   border-radius: 10px;
@@ -450,7 +450,7 @@
 // cheek
 
 .cheek {
-  background: $background-bart;
+  background: colors-simpsons(bg-bart);
   @include border(right);
   width: 64px;
   height: 24px;
@@ -463,7 +463,7 @@
 // mouth
 
 .lip {
-  background: $background-bart;
+  background: colors-simpsons(bg-bart);
   width: 6px;
   height: 6px;
   top: 105px;
@@ -474,7 +474,7 @@
   z-index: 5;
 }
 .mouth {
-  background: $background-bart;
+  background: colors-simpsons(bg-bart);
   border-radius: 100%;
   width: 45px;
   height:10px;
@@ -497,7 +497,7 @@
   @include transform(55deg);
 }
 .bottom-lip {
-  background: $background-bart;
+  background: colors-simpsons(bg-bart);
   width: 18px;
   height: 10px;
   border-radius: 0 0 10px 5px;
@@ -510,7 +510,7 @@
   @include transform(-2deg);
 }
 .neck {
-  background: $background-bart;
+  background: colors-simpsons(bg-bart);
   width: 35px;
   height: 33px;
   top: 93px;

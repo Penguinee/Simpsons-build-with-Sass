@@ -55,6 +55,10 @@
 
 @import "vendor/bourbon/bourbon";
 
+//helpers
+@import "helpers/color-config";
+@import "helpers/functions";
+
 // simpsons
 @import "simpsons/variables";
 @import "simpsons/mixins";
