@@ -12,7 +12,7 @@
   top: 18px;
 }
 .head-itchy {
-  background: colors-simpsons(bg-itchy);
+  background: colors-simpsons('itchy','bg');
   width: 67px;
   height: 76px;
   border-radius: 100%;
@@ -46,7 +46,7 @@
   @include transform(66deg);
 }
 .hair-top-itchy-inside {
-  background: colors-simpsons(bg-itchy);
+  background: colors-simpsons('itchy','bg');
   width: 12px;
   height: 45px;
   border-radius: 100% 0 0 0;
@@ -76,7 +76,7 @@
   @include transform(66deg);
 }
 .hair-middle-itchy-inside {
-  background: colors-simpsons(bg-itchy);
+  background: colors-simpsons('itchy','bg');
   width: 12px;
   height: 39px;
   border-radius: 100% 0 0 0;
@@ -107,7 +107,7 @@
   @include transform(66deg);
 }
 .hair-bottom-itchy-inside {
-  background: colors-simpsons(bg-itchy);
+  background: colors-simpsons('itchy','bg');
   width: 12px;
   height: 39px;
   border-radius: 100% 0 0 0;
@@ -120,7 +120,7 @@
   @include transform(67deg);
 }
 .hairline-itchy {
-  background: colors-simpsons(bg-itchy);
+  background: colors-simpsons('itchy','bg');
   width: 33px;
   height: 33px;
   top: 1px;
@@ -167,7 +167,7 @@
 }
 
 .eye-brow-itchy {
-  background: colors-simpsons(bg-itchy);
+  background: colors-simpsons('itchy','bg');
   width: 15px;
   height: 6px;
   top: 18px;
@@ -180,7 +180,7 @@
 // ears
 
 .ear-itchy {
-  background: colors-simpsons(bg-itchy);
+  background: colors-simpsons('itchy','bg');
   width: 60px;
   height: 60px;
   border: 2px solid $default-border-color;
@@ -197,7 +197,7 @@
   left: 29px;
 }
 .inear-itchy {
-  background: colors-simpsons(bg-itchy);
+  background: colors-simpsons('itchy','bg');
   width: 35px;
   height: 17px;
   top: 24px;
@@ -223,7 +223,7 @@
 }
 
 .front-lip {
-  background: colors-simpsons(bg-itchy);
+  background: colors-simpsons('itchy','bg');
   width: 66px;
   height: 23px;
   border-radius: 0 44% 68% 20%;
@@ -262,7 +262,7 @@
   @include transform(-93deg);
 }
 .bottom-lip-itchy {
-  background: colors-simpsons(bg-itchy);
+  background: colors-simpsons('itchy','bg');
   width: 30px;
   height: 14px;
   border-bottom: 2px solid $default-border-color;
@@ -275,7 +275,7 @@
   @include transform(16deg);
 }
 .bottom-lip-r-itchy {
-  background: colors-simpsons(bg-itchy);
+  background: colors-simpsons('itchy','bg');
   width: 6px;
   height: 9px;
   border-right: 2px solid $default-border-color;
@@ -392,7 +392,7 @@
 // neck
 
 .neck-itchy {
-  background: colors-simpsons(bg-itchy);
+  background: colors-simpsons('itchy','bg');
   border-left: 2px solid $default-border-color;
   border-right: 2px solid $default-border-color;
   width: 28px;
