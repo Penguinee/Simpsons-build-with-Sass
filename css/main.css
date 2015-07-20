@@ -5618,6 +5618,9 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+blockquote {
+  margin-top: 25px; }
+
 .bart * {
   position: absolute;
   -webkit-box-sizing: content-box;
@@ -7176,6 +7179,7 @@ button.close {
   background: #FFD521;
   width: 10px;
   height: 13px;
+  z-index: 1;
   border-left: 2px solid #000;
   border-bottom: 2px solid #000;
   border-radius: 0 0 22% 100%;
