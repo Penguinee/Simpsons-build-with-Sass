@@ -1,14 +1,14 @@
 // base
 
 .lisa *{
-  position: absolute;
-  @include box-sizing(content-box);
+	position: absolute;
+	@include box-sizing(content-box);
 }
 .lisa {
-  position: relative;
-  width: 100px;
-  height: 150px;
-  margin: 30px auto 30px auto;
+	position: relative;
+	width: 100px;
+	height: 150px;
+	margin: 30px auto 30px auto;
 }
 .head-lisa {
 	background: colors-simpsons('lisa','bg');
@@ -547,6 +547,7 @@
 	background: colors-simpsons('lisa','bg');
 	width: 10px;
 	height: 13px;
+	z-index: 1;
 	border-left: 2px solid $default-border-color;
 	border-bottom: 2px solid $default-border-color;
 	border-radius: 0 0 22% 100%;

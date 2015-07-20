@@ -1,405 +1,405 @@
 // base
 
 .itchy *{
-  position: absolute;
-  @include box-sizing(content-box);
+    position: absolute;
+    @include box-sizing(content-box);
 }
 .itchy {
-  position: relative;
-  width: 100px;
-  height: 150px;
-  margin: 0 auto;
-  top: 18px;
+    position: relative;
+    width: 100px;
+    height: 150px;
+    margin: 0 auto;
+    top: 18px;
 }
 .head-itchy {
-  background: colors-simpsons('itchy','bg');
-  width: 67px;
-  height: 76px;
-  border-radius: 100%;
-  border: 2px solid $default-border-color;
-  top: 10px;
-  z-index: 1;
+    background: colors-simpsons('itchy','bg');
+    width: 67px;
+    height: 76px;
+    border-radius: 100%;
+    border: 2px solid $default-border-color;
+    top: 10px;
+    z-index: 1;
 
-  @include transform(16deg);
+    @include transform(16deg);
 }
 
 // hair
 
 .hair-top-itchy {
-  top: 56px;
-  left:49px;
-  z-index: 3;
+    top: 56px;
+    left:49px;
+    z-index: 3;
 
-  @include transform(-18deg);
+    @include transform(-18deg);
 }
 
 .hair-top-itchy-outside {
-  background: $default-border-color;
-  width: 16px;
-  height: 44px;
-  top: -84px;
-  left: 0px;
-  border-radius: 100% 0 0 0;
+    background: $default-border-color;
+    width: 16px;
+    height: 44px;
+    top: -84px;
+    left: 0px;
+    border-radius: 100% 0 0 0;
 
-  z-index: 3;
+    z-index: 3;
 
-  @include transform(66deg);
+    @include transform(66deg);
 }
 .hair-top-itchy-inside {
-  background: colors-simpsons('itchy','bg');
-  width: 12px;
-  height: 45px;
-  border-radius: 100% 0 0 0;
+    background: colors-simpsons('itchy','bg');
+    width: 12px;
+    height: 45px;
+    border-radius: 100% 0 0 0;
 
-  top: -83px;
-  left: -1px;
+    top: -83px;
+    left: -1px;
 
-  z-index: 3;
+    z-index: 3;
 
-  @include transform(67deg);
+    @include transform(67deg);
 }
 .hair-middle-itchy {
-  top: 75px;
-  left: 41px;
-  z-index: 2;
+    top: 75px;
+    left: 41px;
+    z-index: 2;
 }
 .hair-middle-itchy-outside {
-  background: #000;
-  width: 16px;
-  height: 36px;
-  top: -90px;
-  left: 0px;
-  border-radius: 100% 0 0 0;
+    background: #000;
+    width: 16px;
+    height: 36px;
+    top: -90px;
+    left: 0px;
+    border-radius: 100% 0 0 0;
 
-  z-index: 2;
+    z-index: 2;
 
-  @include transform(66deg);
+    @include transform(66deg);
 }
 .hair-middle-itchy-inside {
-  background: colors-simpsons('itchy','bg');
-  width: 12px;
-  height: 39px;
-  border-radius: 100% 0 0 0;
+    background: colors-simpsons('itchy','bg');
+    width: 12px;
+    height: 39px;
+    border-radius: 100% 0 0 0;
 
-  top: -90px;
-  left: -1px;
+    top: -90px;
+    left: -1px;
 
-  z-index: 2;
+    z-index: 2;
 
-  @include transform(67deg);
+    @include transform(67deg);
 }
 .hair-bottom-itchy {
-  top: 95px;
-  left: 35px;
+    top: 95px;
+    left: 35px;
 
-  @include transform(5deg);
+    @include transform(5deg);
 }
 .hair-bottom-itchy-outside {
-  background: $default-border-color;
-  width: 16px;
-  height: 36px;
-  top: -100px;
-  left: 0px;
-  border-radius: 100% 0 0 0;
+    background: $default-border-color;
+    width: 16px;
+    height: 36px;
+    top: -100px;
+    left: 0px;
+    border-radius: 100% 0 0 0;
 
-  z-index: 2;
+    z-index: 2;
 
-  @include transform(66deg);
+    @include transform(66deg);
 }
 .hair-bottom-itchy-inside {
-  background: colors-simpsons('itchy','bg');
-  width: 12px;
-  height: 39px;
-  border-radius: 100% 0 0 0;
+    background: colors-simpsons('itchy','bg');
+    width: 12px;
+    height: 39px;
+    border-radius: 100% 0 0 0;
 
-  top: -100px;
-  left: -1px;
+    top: -100px;
+    left: -1px;
 
-  z-index: 2;
+    z-index: 2;
 
-  @include transform(67deg);
+    @include transform(67deg);
 }
 .hairline-itchy {
-  background: colors-simpsons('itchy','bg');
-  width: 33px;
-  height: 33px;
-  top: 1px;
-  left: 11px;
-  border-radius: 50% 50% 30% 0;
+    background: colors-simpsons('itchy','bg');
+    width: 33px;
+    height: 33px;
+    top: 1px;
+    left: 11px;
+    border-radius: 50% 50% 30% 0;
 
-  z-index: 3;
-  @include transform(-73deg);
+    z-index: 3;
+    @include transform(-73deg);
 }
 // eyes
 
 .eye-itchy {
-  background: #fff;
-  width: 30px;
-  height: 30px;
-  border: 2px solid $default-border-color;
-  border-radius: 100%;
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    border: 2px solid $default-border-color;
+    border-radius: 100%;
 }
 .eye-l-itchy {
-  left: 23px;
-  top: 25px;
+    left: 23px;
+    top: 25px;
 
-  z-index: 5;
+    z-index: 5;
 }
 .eye-r-itchy {
-  left: 45px;
-  top: 19px;
+    left: 45px;
+    top: 19px;
 
-  z-index: 4;
+    z-index: 4;
 }
 .pupil {
-  width: 4px;
-  height: 4px;
-  background: #000;
-  border-radius: 50%;
+    width: 4px;
+    height: 4px;
+    background: #000;
+    border-radius: 50%;
 }
 .pupil-l-itchy {
-  top: 5px;
-  left: 19px;
+    top: 5px;
+    left: 19px;
 }
 .pupil-r-itchy {
-  top: 5px;
-  left: 22px;
+    top: 5px;
+    left: 22px;
 }
 
 .eye-brow-itchy {
-  background: colors-simpsons('itchy','bg');
-  width: 15px;
-  height: 6px;
-  top: 18px;
-  left: 40px;
+    background: colors-simpsons('itchy','bg');
+    width: 15px;
+    height: 6px;
+    top: 18px;
+    left: 40px;
 
-  @include transform(-38deg);
-  z-index: 4;
+    @include transform(-38deg);
+    z-index: 4;
 }
 
 // ears
 
 .ear-itchy {
-  background: colors-simpsons('itchy','bg');
-  width: 60px;
-  height: 60px;
-  border: 2px solid $default-border-color;
-  border-radius: 100%;
+    background: colors-simpsons('itchy','bg');
+    width: 60px;
+    height: 60px;
+    border: 2px solid $default-border-color;
+    border-radius: 100%;
 }
 .ear-l-itchy {
-  top: -16px;
-  left: -40px;
+    top: -16px;
+    left: -40px;
 
-  z-index: 3;
+    z-index: 3;
 }
 .ear-r-itchy {
-  top: -25px;
-  left: 29px;
+    top: -25px;
+    left: 29px;
 }
 .inear-itchy {
-  background: colors-simpsons('itchy','bg');
-  width: 35px;
-  height: 17px;
-  top: 24px;
-  left: -4px;
-  z-index: 3;
+    background: colors-simpsons('itchy','bg');
+    width: 35px;
+    height: 17px;
+    top: 24px;
+    left: -4px;
+    z-index: 3;
 
-  @include transform(122deg);
+    @include transform(122deg);
 }
 
 // mouth
 
 .mouth-itchy {
-  background: #000;
-  width: 25px;
-  height: 11px;
-  border-radius: 18% 50% 50% 58%;
-  top: 87px;
-  left: 32px;
+    background: #000;
+    width: 25px;
+    height: 11px;
+    border-radius: 18% 50% 50% 58%;
+    top: 87px;
+    left: 32px;
 
-  @include transform(31deg);
+    @include transform(31deg);
 
-  z-index: 3;
+    z-index: 3;
 }
 
 .front-lip {
-  background: colors-simpsons('itchy','bg');
-  width: 66px;
-  height: 23px;
-  border-radius: 0 44% 68% 20%;
-  border-top: 2px solid $default-border-color;
-  border-right: 2px solid $default-border-color;
-  border-bottom: 2px solid $default-border-color;
-  top: 41px;
-  left: 52px;
-  z-index: 2;
+    background: colors-simpsons('itchy','bg');
+    width: 66px;
+    height: 23px;
+    border-radius: 0 44% 68% 20%;
+    border-top: 2px solid $default-border-color;
+    border-right: 2px solid $default-border-color;
+    border-bottom: 2px solid $default-border-color;
+    top: 41px;
+    left: 52px;
+    z-index: 2;
 
-  @include transform(-12deg);
+    @include transform(-12deg);
 }
 .front-lip-roundedDown {
-  background: #fff;
-  width: 62px;
-  height: 12px;
-  border-radius: 0 0 100% 114%;
-  border-bottom: 2px solid $default-border-color;;
-  top: -8px;
-  left: 1px;
+    background: #fff;
+    width: 62px;
+    height: 12px;
+    border-radius: 0 0 100% 114%;
+    border-bottom: 2px solid $default-border-color;;
+    top: -8px;
+    left: 1px;
 
-  @include transform(2deg);
+    @include transform(2deg);
 
-  z-index: 1;
+    z-index: 1;
 }
 .font-lip-smile {
-  background: transparent;
-  width: 13px;
-  height: 35px;
-  border-left: 2px solid $default-border-color;
-  top: 0px;
-  left: 2px;
-  border-radius: 100% 0 0 14%;
+    background: transparent;
+    width: 13px;
+    height: 35px;
+    border-left: 2px solid $default-border-color;
+    top: 0px;
+    left: 2px;
+    border-radius: 100% 0 0 14%;
 
-  z-index: 3;
-  @include transform(-93deg);
+    z-index: 3;
+    @include transform(-93deg);
 }
 .bottom-lip-itchy {
-  background: colors-simpsons('itchy','bg');
-  width: 30px;
-  height: 14px;
-  border-bottom: 2px solid $default-border-color;
-  border-right: 2px solid $default-border-color;
-  border-radius: 50%;
-  top: 91px;
-  left: 29px;
-  z-index: 2;
+    background: colors-simpsons('itchy','bg');
+    width: 30px;
+    height: 14px;
+    border-bottom: 2px solid $default-border-color;
+    border-right: 2px solid $default-border-color;
+    border-radius: 50%;
+    top: 91px;
+    left: 29px;
+    z-index: 2;
 
-  @include transform(16deg);
+    @include transform(16deg);
 }
 .bottom-lip-r-itchy {
-  background: colors-simpsons('itchy','bg');
-  width: 6px;
-  height: 9px;
-  border-right: 2px solid $default-border-color;
-  border-top: 2px solid $default-border-color;
-  top: 88px;
-  left: 52px;
-  border-radius: 20% 50% 30% 36%;
+    background: colors-simpsons('itchy','bg');
+    width: 6px;
+    height: 9px;
+    border-right: 2px solid $default-border-color;
+    border-top: 2px solid $default-border-color;
+    top: 88px;
+    left: 52px;
+    border-radius: 20% 50% 30% 36%;
 
-  z-index:3;
+    z-index:3;
 
-  @include transform(10deg);
+    @include transform(10deg);
 }
 
 // cheek
 
 .cheek-itchy {
-  background: transparent;
-  width: 13px;
-  height: 15px;
-  border-left: 2px solid $default-border-color;
-  top: 70px;
-  left: 25px;
-  border-radius: 72% 0 0 72%;
+    background: transparent;
+    width: 13px;
+    height: 15px;
+    border-left: 2px solid $default-border-color;
+    top: 70px;
+    left: 25px;
+    border-radius: 72% 0 0 72%;
 
-  z-index: 3;
-  @include transform(-115deg);
+    z-index: 3;
+    @include transform(-115deg);
 }
 
 // tongue
 
 .tongue-itchy {
-  background: #C60021;
-  border-radius: 50% 38% 30% 85%;
-  width: 12px;
-  height: 9px;
-  top: 0px;
-  left: 1px;
+    background: #C60021;
+    border-radius: 50% 38% 30% 85%;
+    width: 12px;
+    height: 9px;
+    top: 0px;
+    left: 1px;
 
-  z-index: 3;
+    z-index: 3;
 
-  @include transform(-4deg);
+    @include transform(-4deg);
 }
 .tongue-gap-itchy {
-  background: transparent;
-  border-bottom: 2px solid $default-border-color;
-  height: 1px;
-  width: 5px;
-  top: 1px;
-  left: 5px;
-  border-radius: 0 0 50% 50%;
+    background: transparent;
+    border-bottom: 2px solid $default-border-color;
+    height: 1px;
+    width: 5px;
+    top: 1px;
+    left: 5px;
+    border-radius: 0 0 50% 50%;
 
-  @include transform(83deg);
+    @include transform(83deg);
 
-  z-index: 4;
+    z-index: 4;
 }
 
 // nose
 
 .nose-itchy {
-  background: #424242;
-  height: 12px;
-  width: 21px;
-  border: 2px solid $default-border-color;
-  top: 41px;
-  left: 60px;
-  border-radius: 50%;
+    background: #424242;
+    height: 12px;
+    width: 21px;
+    border: 2px solid $default-border-color;
+    top: 41px;
+    left: 60px;
+    border-radius: 50%;
 
-  @include transform(-17deg);
+    @include transform(-17deg);
 
-  z-index: 4;
+    z-index: 4;
 }
 
 // teeth
 
 .tooth-itchy {
-  top: -12px;
-  left: 24px;
+    top: -12px;
+    left: 24px;
 
-  @include transform(-36deg);
+    @include transform(-36deg);
 }
 .tooth-inner-itchy {
-  background: #fff;
-  width: 12px;
-  height: 8px;
-  border-radius: 0 0 300px 300px;
+    background: #fff;
+    width: 12px;
+    height: 8px;
+    border-radius: 0 0 300px 300px;
 
-  z-index: 3;
+    z-index: 3;
 }
 .tooth-outside-itchy {
-  background: $default-border-color;
-  width: 14px;
-  height: 10px;
-  border-radius: 0 0 300px 300px;
+    background: $default-border-color;
+    width: 14px;
+    height: 10px;
+    border-radius: 0 0 300px 300px;
 
-  z-index: 2;
+    z-index: 2;
 }
 .tooth-inner-l-itchy {
-  top: 11px;
-  left:16px;
+    top: 11px;
+    left:16px;
 }
 .tooth-outside-l-itchy {
-  top: 10px;
-  left:15px;
+    top: 10px;
+    left:15px;
 }
 .tooth-inner-r-itchy {
-  top: 11px;
-  left:28px;
+    top: 11px;
+    left:28px;
 }
 .tooth-outside-r-itchy {
-  top: 10px;
-  left:27px;
+    top: 10px;
+    left:27px;
 }
 
 // neck
 
 .neck-itchy {
-  background: colors-simpsons('itchy','bg');
-  border-left: 2px solid $default-border-color;
-  border-right: 2px solid $default-border-color;
-  width: 28px;
-  height: 26px;
-  top: 85px;
-  left: 8px;
+    background: colors-simpsons('itchy','bg');
+    border-left: 2px solid $default-border-color;
+    border-right: 2px solid $default-border-color;
+    width: 28px;
+    height: 26px;
+    top: 85px;
+    left: 8px;
 
-  @include transform(16deg);
-  z-index: 1;
+    @include transform(16deg);
+    z-index: 1;
 }

@@ -9,23 +9,23 @@
 	width: 100px;
 	height: 150px;
 	margin: 0 auto;
-  @include transform(-5deg);
+    @include transform(-5deg);
 }
 // hair-tip
 
 .hair-wrap {
-  top: 8px;
+    top: 8px;
 }
 .hair {
-  width:0px;
-  height:0px;
+    width:0px;
+    height:0px;
 
-  border-bottom:18px solid colors-simpsons('bart','bg');
+    border-bottom:18px solid colors-simpsons('bart','bg');
 }
 .tip-left {
-  @include transform(-5deg);
-  top: -1px;
-  left: -2px;
+    @include transform(-5deg);
+    top: -1px;
+    left: -2px;
 
   .tip-inside{
     top: -2px;
@@ -52,8 +52,8 @@
 
 .tip {
   @include transform(-5deg);
-  left: 3px;
-  top: -3px;
+    left: 3px;
+    top: -3px;
 
   .tip-inside{
     top: -2px;
@@ -76,9 +76,9 @@
 }
 
 .tip1 {
-  @include transform(-4deg);
-  left: 15px;
-  top: -5px;
+    @include transform(-4deg);
+    left: 15px;
+    top: -5px;
 
   .tip-inside{
     top: -2px;
@@ -99,9 +99,9 @@
   }
 }
 .tip2 {
-  @include transform(-3deg);
-  left: 25px;
-  top: -6px;
+    @include transform(-3deg);
+    left: 25px;
+    top: -6px;
 
   .tip-inside{
     top: -2px;
@@ -123,9 +123,9 @@
   }
 }
 .tip3 {
-  @include transform(5deg);
-  left: 37px;
-  top: -8px;
+    @include transform(5deg);
+    left: 37px;
+    top: -8px;
 
   .tip-inside{
     top: -2px;
@@ -146,9 +146,9 @@
   }
 }
 .tip4 {
-  @include transform(-5deg);
-  left: 46px;
-  top: -5px;
+    @include transform(-5deg);
+    left: 46px;
+    top: -5px;
 
   .tip-inside{
     top: -2px;
@@ -169,9 +169,9 @@
   }
 }
 .tip5 {
-  @include transform(2deg);
-  top: -4px;
-  left: 57px;
+    @include transform(2deg);
+    top: -4px;
+    left: 57px;
 
   .tip-inside{
     top: -2px;
@@ -193,9 +193,9 @@
 }
 
 .tip-right {
-  @include transform(8deg);
-  left: 63px;
-  top: -4px;
+    @include transform(8deg);
+    left: 63px;
+    top: -4px;
 
   .tip-inside{
     top: -2px;
@@ -223,299 +223,299 @@
 // forehead
 
 .forehead {
-  background: colors-simpsons('bart','bg');
-  height: 18px;
+    background: colors-simpsons('bart','bg');
+    height: 18px;
 }
 .forehead-l {
-  width:39px;
-  top: 19px;
-  left: 8px;
-  @include border(left);
-  z-index: 3;
+    width:39px;
+    top: 19px;
+    left: 8px;
+    @include border(left);
+    z-index: 3;
 
   @include transform(-5deg);
 }
 .forehead-r {
-  width:35px;
-  top: 20px;
-  left: 47px;
-  @include border(right);
-  z-index: 3;
+    width:35px;
+    top: 20px;
+    left: 47px;
+    @include border(right);
+    z-index: 3;
 
-  @include transform(5deg);
+    @include transform(5deg);
 }
 
 // eye-brow
 
 .brow {
-  background: colors-simpsons('bart','bg');
-  width: 71px;
-  height: 15px;
-  top: 36px;
-  left: 9px;
+    background: colors-simpsons('bart','bg');
+    width: 71px;
+    height: 15px;
+    top: 36px;
+    left: 9px;
 
-  @include border(left);
-  @include border(right);
+    @include border(left);
+    @include border(right);
 }
 .brow-before {
-  background: colors-simpsons('bart','bg');
-  width: 73px;
-  height: 15px;
-  top: 13px;
-  left: 10px;
+    background: colors-simpsons('bart','bg');
+    width: 73px;
+    height: 15px;
+    top: 13px;
+    left: 10px;
 }
 
 // eyes
 
 .eyebrow {
-  background: colors-simpsons('bart','bg');
-  width: 15px;
-  height: 15px;
-  border: 1px solid $default-border-color;
-  border-radius: 100%;
-  top: 49px;
-  left: 70px;
-  z-index: 4;
+    background: colors-simpsons('bart','bg');
+    width: 15px;
+    height: 15px;
+    border: 1px solid $default-border-color;
+    border-radius: 100%;
+    top: 49px;
+    left: 70px;
+    z-index: 4;
 }
 .eye {
-  border-radius: 100%;
-  width: 30px;
-  height: 30px;
-  border: 1px solid $default-border-color;
-  background: #fff;
-  overflow: hidden;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    border: 1px solid $default-border-color;
+    background: #fff;
+    overflow: hidden;
 }
 .eye-l {
-  top: 54px;
-  left: 30px;
+    top: 54px;
+    left: 30px;
 
-  z-index: 9;
+    z-index: 9;
 }
 .eye-r {
-  top: 54px;
-  left: 56px;
+    top: 54px;
+    left: 56px;
 
-  z-index: 8;
+    z-index: 8;
 }
 
 .eye-pupil {
-  height: 5px;
-  width: 5px;
-  background: #000;
-  border-radius: 100%;
+    height: 5px;
+    width: 5px;
+    background: #000;
+    border-radius: 100%;
 }
 .eye-pupil-l {
-  top: 13px;
-  left: 10px;
+    top: 13px;
+    left: 10px;
 }
 .eye-pupil-r {
-  top: 13px;
-  left: 10px
+    top: 13px;
+    left: 10px
 }
 .eye-behind {
-  background: colors-simpsons('bart','bg');
-  width: 70px;
-  height: 43px;
-  top: 45px;
-  left: 8px;
-  @include border(left);
+    background: colors-simpsons('bart','bg');
+    width: 70px;
+    height: 43px;
+    top: 45px;
+    left: 8px;
+    @include border(left);
 
-  z-index: 7;
-  @include transform(2deg);
+    z-index: 7;
+    @include transform(2deg);
 }
 
 // eye animation
 
 .eyelid-top-right {
-  width: 30px;
-  height: 17px;
-  border-bottom: 1px solid #110b00;
-  border-radius: 100% 100% 0 0;
-  background: colors-simpsons('bart','bg');
+    width: 30px;
+    height: 17px;
+    border-bottom: 1px solid #110b00;
+    border-radius: 100% 100% 0 0;
+    background: colors-simpsons('bart','bg');
 
-  z-index: 11;
+    z-index: 11;
 
-  @include animation(eyelid-top 10s linear 0s infinite);
+    @include animation(eyelid-top 10s linear 0s infinite);
 }
 .eyelid-bottom-right {
-  bottom: 0px;
-  width: 30px;
-  height: 12px;
-  border-top: 1px solid #110b00;
-  border-radius: 0 0 100% 100%;
-  background: colors-simpsons('bart','bg');
+    bottom: 0px;
+    width: 30px;
+    height: 12px;
+    border-top: 1px solid #110b00;
+    border-radius: 0 0 100% 100%;
+    background: colors-simpsons('bart','bg');
 
-  @include animation(eyelid-bottom 10s linear 0s infinite);
+    @include animation(eyelid-bottom 10s linear 0s infinite);
 }
 .eyelid-top-left {
-  width: 30px;
-  height: 17px;
-  border-bottom: 1px solid #110b00;
-  border-radius: 100% 100% 0 0;
-  background: colors-simpsons('bart','bg');
+    width: 30px;
+    height: 17px;
+    border-bottom: 1px solid #110b00;
+    border-radius: 100% 100% 0 0;
+    background: colors-simpsons('bart','bg');
 
-  z-index: 11;
+    z-index: 11;
 
-  @include animation(eyelid-top 10s linear 0s infinite);
+    @include animation(eyelid-top 10s linear 0s infinite);
 }
 .eyelid-bottom-left {
-  bottom: 0px;
-  width: 30px;
-  height: 12px;
-  border-top: 1px solid #110b00;
-  border-radius: 0 0 100% 100%;
-  background: colors-simpsons('bart','bg');
+    bottom: 0px;
+    width: 30px;
+    height: 12px;
+    border-top: 1px solid #110b00;
+    border-radius: 0 0 100% 100%;
+    background: colors-simpsons('bart','bg');
 
-  @include animation(eyelid-bottom 10s linear 0s infinite);
+    @include animation(eyelid-bottom 10s linear 0s infinite);
 }
 
 @include keyframes(eyelid-top) {
-  0% {top: -18px;}
-  2% {top: 0px;}
-  4% {top: -18px;}
-  100% {top: -18px;}
+    0% {top: -18px;}
+    2% {top: 0px;}
+    4% {top: -18px;}
+    100% {top: -18px;}
 }
 @include keyframes(eyelid-bottom) {
-  0% {bottom: -13px;}
-  2% {bottom: 0px;}
-  4% {bottom: -13px;}
-  100% {bottom: -13px;}
+    0% {bottom: -13px;}
+    2% {bottom: 0px;}
+    4% {bottom: -13px;}
+    100% {bottom: -13px;}
 }
 
 // nose
 
 .nose {
-  background: colors-simpsons('bart','bg');
-  width: 20px;
-  height: 12px;
-  border-radius: 0 10px  10px 0;
-  top: 79px;
-  left: 59px;
-  @include border(top);
-  @include border(right);
-  @include border(bottom);
+    background: colors-simpsons('bart','bg');
+    width: 20px;
+    height: 12px;
+    border-radius: 0 10px  10px 0;
+    top: 79px;
+    left: 59px;
+    @include border(top);
+    @include border(right);
+    @include border(bottom);
 
-  z-index:10;
+    z-index:10;
 }
 .nose-hole {
-  background: colors-simpsons('bart','bg');
-  width: 10px;
-  height: 10px;
-  top: 83px;
-  left: 55px;
+    background: colors-simpsons('bart','bg');
+    width: 10px;
+    height: 10px;
+    top: 83px;
+    left: 55px;
 
-  z-index: 11;
+    z-index: 11;
 }
 
 // ear
 
 .ear{
-  background: colors-simpsons('bart','bg');
+    background: colors-simpsons('bart','bg');
 }
 .ear-outside {
-  border-radius: 10px;
-  @include border(left);
-  @include border(top);
-  @include border(bottom);
-  width: 14px;
-  height: 15px;
-  top: 76px;
-  left: 0px;
+    border-radius: 10px;
+    @include border(left);
+    @include border(top);
+    @include border(bottom);
+    width: 14px;
+    height: 15px;
+    top: 76px;
+    left: 0px;
 
-  z-index: 8;
+    z-index: 8;
 }
 .ear-inner-horizontal {
-  @include border(left);
-  width: 5px;
-  height: 7px;
-  top: 81px;
-  left: 7px;
-  border-radius: 10px 0 0 10px;
+    @include border(left);
+    width: 5px;
+    height: 7px;
+    top: 81px;
+    left: 7px;
+    border-radius: 10px 0 0 10px;
 
-  @include transform(-2deg);
+    @include transform(-2deg);
 
-  z-index: 10;
+    z-index: 10;
 }
 .ear-inner-vertical {
-  @include border(top);
-  width: 9px;
-  height: 5px;
-  top: 80px;
-  left: 4px;
-  border-radius: 10px 10px  0 0;
+    @include border(top);
+    width: 9px;
+    height: 5px;
+    top: 80px;
+    left: 4px;
+    border-radius: 10px 10px  0 0;
 
-  z-index: 9;
+    z-index: 9;
 }
 
 // cheek
 
 .cheek {
-  background: colors-simpsons('bart','bg');
-  @include border(right);
-  width: 64px;
-  height: 24px;
-  top: 82px;
-  left: 14px;
+    background: colors-simpsons('bart','bg');
+    @include border(right);
+    width: 64px;
+    height: 24px;
+    top: 82px;
+    left: 14px;
 
-  z-index: 6;
+    z-index: 6;
 }
 
 // mouth
 
 .lip {
-  background: colors-simpsons('bart','bg');
-  width: 6px;
-  height: 6px;
-  top: 105px;
-  left:74px;
-  border-radius: 0 5px 5px 5px;
-  @include border(right);
+    background: colors-simpsons('bart','bg');
+    width: 6px;
+    height: 6px;
+    top: 105px;
+    left:74px;
+    border-radius: 0 5px 5px 5px;
+    @include border(right);
 
-  z-index: 5;
+    z-index: 5;
 }
 .mouth {
-  background: colors-simpsons('bart','bg');
-  border-radius: 100%;
-  width: 45px;
-  height:10px;
-  @include border(bottom);
-  top: 104px;
-  left: 36px;
+    background: colors-simpsons('bart','bg');
+    border-radius: 100%;
+    width: 45px;
+    height:10px;
+    @include border(bottom);
+    top: 104px;
+    left: 36px;
 
-  z-index: 8;
+    z-index: 8;
 }
 .smile {
-  @include border(left);
-  width: 5px;
-  height: 7px;
-  top: 107px;
-  left: 33px;
-  border-radius: 10px 0 0 10px;
+    @include border(left);
+    width: 5px;
+    height: 7px;
+    top: 107px;
+    left: 33px;
+    border-radius: 10px 0 0 10px;
 
-  z-index: 8;
+    z-index: 8;
 
-  @include transform(55deg);
+    @include transform(55deg);
 }
 .bottom-lip {
-  background: colors-simpsons('bart','bg');
-  width: 18px;
-  height: 10px;
-  border-radius: 0 0 10px 5px;
-  @include border(bottom);
-  top: 110px;
-  left: 40px;
+    background: colors-simpsons('bart','bg');
+    width: 18px;
+    height: 10px;
+    border-radius: 0 0 10px 5px;
+    @include border(bottom);
+    top: 110px;
+    left: 40px;
 
-  z-index: 7;
+    z-index: 7;
 
-  @include transform(-2deg);
+    @include transform(-2deg);
 }
 .neck {
-  background: colors-simpsons('bart','bg');
-  width: 35px;
-  height: 33px;
-  top: 93px;
-  left: 6px;
+    background: colors-simpsons('bart','bg');
+    width: 35px;
+    height: 33px;
+    top: 93px;
+    left: 6px;
 
-  @include borderLeftRight($borderWidth: 1px, $color: $default-border-color);
-  @include transform(9deg);
+    @include borderLeftRight($borderWidth: 1px, $color: $default-border-color);
+    @include transform(9deg);
 }
